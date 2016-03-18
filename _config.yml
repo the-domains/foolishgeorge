@@ -1,28 +1,40 @@
-name: foolishgeorge
 favicon: null
-layout_spectrum: 0.4262945814989507
-typography_spectrum: 0.09307526960037649
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: foolishgeorge
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.8408411943819374
+  brandStrength: 0.04956498206593096
+  rhythmicContrast: 0.4310401065740734
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.04956498206593096
   lightness: 0.602264751913026
-  saturation: 0.8408411943819374
-  rhythmicContrast: 0.43104010657407343
-purpose: []
+typography_spectrum: 0.09307526960037649
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
